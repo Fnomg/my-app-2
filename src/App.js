@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     Init commit
+     Init commit to pull request
     </div>
   );
 }
