@@ -1,10 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import {Message} from "./components/Messages";
 
 function App() {
+  const messages = [
+    {
+      id: 0,
+      name: 'Ann',
+      text: 'Hi'
+    },
+    {
+      id: 1,
+      name: 'Ben',
+      text: 'Hello'
+    }
+  ]
   return (
     <div className="App">
-     Init commit to pull request
+      <Message messages={messages}/>
     </div>
   );
 }
