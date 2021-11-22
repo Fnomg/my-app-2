@@ -6,7 +6,7 @@ export const Message = ({ messages }) => {
       {messages.map((message) => {
         return (
           <div key={message.id}>
-            <div>{message.name}</div>
+            <div>{message.author}</div>
             <div>{message.text}</div>
           </div>
         )
