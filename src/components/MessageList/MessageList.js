@@ -4,7 +4,7 @@ import {Button, TextField} from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 import {v4 as uuidv4} from "uuid";
 
-export const MainSection = () => {
+export const MessageList = () => {
 
   const [messageList, setMessageList] = useState([]);
   const [textMessage, setTextMessage] = useState('');

@@ -4,7 +4,7 @@ import ListItemText from "@mui/material/ListItemText";
 import List from "@mui/material/List";
 import {v4 as uuidv4} from "uuid";
 
-export const Sidebar = () => {
+export const ChatList = () => {
 
   const chatLists = [
     {

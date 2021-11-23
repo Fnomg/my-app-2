@@ -1,15 +1,15 @@
 import './App.css';
 import * as React from 'react';
-import {Sidebar} from "./components/Sidebar/Sidebar";
-import {MainSection} from "./components/MainSection/MainSection";
+import {ChatList} from "./components/ChatList/ChatList";
+import {MessageList} from "./components/MessageList/MessageList";
 
 const App = () => {
 
   return (
     <>
       <div className="content">
-        <Sidebar />
-        <MainSection />
+        <ChatList />
+        <MessageList />
       </div>
     </>
 
